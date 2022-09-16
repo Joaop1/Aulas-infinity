@@ -1,8 +1,7 @@
-import math
+soma = 0
+for i in range(1,6):
+    numero = int(input(f"Digite o {i}º número: "))
+    soma = soma + numero
 
-raio = float(input("Raio: "))
-pi = math.pi
-print (pi)
-
-area = pi * (raio**2)
-print (f"{area:.0f}")
+media = soma / i
+print(f"A soma é {soma} e a média é {media}")
