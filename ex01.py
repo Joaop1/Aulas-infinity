@@ -1,2 +1,4 @@
-for i in range(0,51,1):
-    print(i)
+def calculaMedia(numero01, numero02):
+    media = (numero01 + numero02)/2
+    print(f'A média é {media}.')
+
